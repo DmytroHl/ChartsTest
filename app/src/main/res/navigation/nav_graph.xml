@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainContentFragment">
+
+    <fragment
+        android:id="@+id/MainContentFragment"
+        android:name="com.example.chartstest.ui.main.MainContentFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_main_content">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/ChartsContainerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ChartsContainerFragment"
+        android:name="com.example.chartstest.ui.main.ChartsContainerFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_charts_container">
+
+        <argument
+            android:name="file_path"
+            app:argType="integer" />
+    </fragment>
+</navigation>

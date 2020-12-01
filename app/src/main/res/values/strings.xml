@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Charts App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Main Content Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="choose_data_type">Choose data type</string>
+    <string name="weekly_data">Weekly data</string>
+    <string name="monthly_data">Monthly data</string>
+
+    <string name="linear_chart">Linear</string>
+    <string name="candlestick_chart">CandleStick</string>
+
+    <string name="weekly_path">response_quotes_week.json</string>
+    <string name="monthly_path">response_quotes_month.json</string>
+
+</resources>
